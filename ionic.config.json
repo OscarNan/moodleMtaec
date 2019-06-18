@@ -1,0 +1,7 @@
+{
+  "name": "moodle",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
