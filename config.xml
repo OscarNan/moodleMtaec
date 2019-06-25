@@ -44,14 +44,7 @@
         <splash density="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
         <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-        <gap:config-file platform=”android” parent=”/manifest/application/activity” mode=”add”>
-        <intent-filter>
-            <action android:name=”android.intent.action.VIEW” />
-            <category android:name=”android.intent.category.DEFAULT” />
-            <category android:name=”android.intent.category.BROWSABLE” />
-            <data android:host=”aork2.com” android:scheme=”http” />
-        </intent-filter>
-        </gap:config-file>
+       
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
