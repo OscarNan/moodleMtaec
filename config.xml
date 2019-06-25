@@ -87,5 +87,13 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <gap:config-file platform=”android” parent=”/manifest/application/activity” mode=”add”>
+        <intent-filter>
+            <action android:name=”android.intent.action.VIEW” />
+            <category android:name=”android.intent.category.DEFAULT” />
+            <category android:name=”android.intent.category.BROWSABLE” />
+            <data android:host=”aork2.com” android:scheme=”http” />
+        </intent-filter>
+    </gap:config-file>
     <engine name="android" spec="~7.1.4" />
 </widget>
