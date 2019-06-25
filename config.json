@@ -57,6 +57,7 @@
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
     "customurlscheme": "moodlemobile",
+    "demo_sites": {},
     "siteurl": "http://moodle.taec.com.mx/my/",
     "sitename": "",
     "multisitesdisplay": "",
