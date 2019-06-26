@@ -8,14 +8,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <gap:config-file platform=”android” parent=”/manifest/application/activity” mode=”add”>
-                <intent-filter>
-                    <action android:name=”android.intent.action.VIEW” />
-                    <category android:name=”android.intent.category.DEFAULT” />
-                    <category android:name=”android.intent.category.BROWSABLE” />
-                    <data android:host=”aork2.com” android:scheme=”http” />
-                </intent-filter>
-            </gap:config-file>
+            
         </activity>
     </application>
     <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
